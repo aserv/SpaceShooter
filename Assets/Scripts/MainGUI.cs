@@ -27,7 +27,7 @@ public class MainGUI : MonoBehaviour {
 
 		GUI.DrawTextureWithTexCoords (pixelExpBar , barTexture, new Rect (0, 0.75F, 1, 0.25F));
 		GUI.DrawTextureWithTexCoords (RectSqueeseLeft(pixelExpBar, expPercent), barTexture, new Rect (0, 0.5F, expPercent, 0.25F));
-		GUI.DrawTextureWithTexCoords (RectSqueeseRight(pixelExpBar, expPercent), barTexture, new Rect (expPercent, 0.25F, 1 - expPercent, 0.25F));
+		GUI.DrawTextureWithTexCoords (RectSqueeseRight(pixelExpBar, expPercent), barTexture, new Rect (expPercent, 0.0F, 1 - expPercent, 0.25F));
 
 		GUI.DrawTextureWithTexCoords (pixelHealthBar, barTexture, new Rect (0, 0.75F, 1, 0.25F));
 		GUI.DrawTextureWithTexCoords (RectSqueeseLeft (pixelHealthBar, healthPercent), barTexture, new Rect (0, 0.5F, healthPercent, 0.25F));

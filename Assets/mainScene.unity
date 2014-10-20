@@ -174,15 +174,15 @@ MonoBehaviour:
   normalizedExpBar:
     serializedVersion: 2
     x: .100000001
-    y: .899999976
+    y: .925000012
     width: .800000012
-    height: .0500000007
+    height: .0250000004
   normalizedHealthBar:
     serializedVersion: 2
     x: .200000003
-    y: .0500000007
+    y: .0250000004
     width: .600000024
-    height: .0500000007
+    height: .0250000004
 --- !u!1 &494281061
 GameObject:
   m_ObjectHideFlags: 0

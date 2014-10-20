@@ -5,7 +5,7 @@ public class PlayerShipController : ShipBase {
 	public float timePerShot;
 	public GameObject laser;
 	public float healthPercent {
-		get{return (float)health /healthMax;}
+		get{return Mathf.Max((float)health /healthMax, 0);}
 	}
 	private Rect cameraBounds;
 	private float fireTime;
